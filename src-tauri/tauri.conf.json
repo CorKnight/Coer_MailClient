@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "../frontend",
+    "distDir": "../frontend"
+  },
+  "package": {
+    "productName": "Coer Mail Client",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "bundle": {
+      "active": true,
+      "identifier": "com.coer.mailclient"
+    },
+    "windows": [
+      {
+        "title": "Coer Mail Client",
+        "width": 1200,
+        "height": 800
+      }
+    ]
+  }
+}
