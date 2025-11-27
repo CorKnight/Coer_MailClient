@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coer Mail Client</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Coer Mail Client</h1>
+      <p class="subtitle">Tauri MVP with placeholder data</p>
+    </header>
+    <main>
+      <aside class="folders">
+        <h2>Folders</h2>
+        <ul id="folder-list"></ul>
+      </aside>
+      <section class="messages">
+        <div class="message-list">
+          <h2>Messages</h2>
+          <ul id="message-list"></ul>
+        </div>
+        <article class="message-detail">
+          <h2 id="message-subject">Select a message</h2>
+          <p class="meta" id="message-from"></p>
+          <div id="message-body">Choose a message from the list to view its content.</div>
+        </article>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
